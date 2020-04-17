@@ -251,8 +251,11 @@ footer {
         overflow: hidden;
     }
 
-    .content {
-        width: 100%;
+    .content p br,
+    .eventos p br,
+    .desayunar p br,
+    .contacto p br {
+        display: none;
     }
 
     .celebracion {
