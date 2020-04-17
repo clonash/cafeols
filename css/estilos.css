@@ -235,10 +235,16 @@ footer {
     width: 100%;
 }
 
-@media all and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .texto-principal {
     height: 800px;
     overflow: hidden;
+  }
+    
+  .eventos br,
+  .desayunar br,
+  .contacto br {
+    display: none;
   }
 
   .celebracion {
@@ -270,35 +276,6 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-  .texto-principal {
-    height: 800px;
-    overflow: hidden;
-  }
-
-  .content {
-    padding-top: 180px;
-  }
-
-  .eventos br,
-  .desayunar br,
-  .contacto br {
-    display: none;
-  }
-
-  .section {
-    width: 100%;
-  }
-
-  .articulos {
-    width: 100%;
-  }
-
-  .article {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 728px) {
   .texto-principal {
     height: 800px;
     overflow: hidden;
