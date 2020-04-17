@@ -277,7 +277,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   .texto-principal {
-    height: 800px;
+    height: 900px;
     overflow: hidden;
   }
 
