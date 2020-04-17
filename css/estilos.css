@@ -237,7 +237,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
   .texto-principal {
-    height: 800px;
+    height: 700px;
     overflow: hidden;
   }
     
@@ -289,17 +289,5 @@ footer {
   .desayunar br,
   .contacto br {
     display: none;
-  }
-
-  .section {
-    width: 100%;
-  }
-
-  .articulos {
-    width: 100%;
-  }
-
-  .article {
-    width: 100%;
   }
 }
