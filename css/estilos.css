@@ -312,3 +312,12 @@ footer {
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 720px){
+    .content p br,
+    .eventos p br,
+    .desayunar p br,
+    .contacto p br {
+        display: none;
+    }
+}
