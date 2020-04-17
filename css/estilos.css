@@ -236,6 +236,11 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+    .texto-principal {
+        height: 600px;
+        overflow: hidden;
+    }
+    
     .celebracion {
         flex-direction: column;
     }
