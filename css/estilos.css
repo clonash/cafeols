@@ -235,65 +235,94 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-    .texto-principal {
-        height: 800px;
-        overflow: hidden;
-    }
-    
-    .celebracion {
-        flex-direction: column;
-    }
+@media all and (max-width: 1024px) {
+  .texto-principal {
+    height: 800px;
+    overflow: hidden;
+  }
 
-    .section {
-        flex-direction: column;
-        text-align: center;
-        padding: 60px 0px 70px 0px;
-    }
+  .celebracion {
+    flex-direction: column;
+  }
 
-    .articulos {
-        flex-direction: column;
-    }
+  .section {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 0px 70px 0px;
+  }
 
-    .article {
-        flex-direction: column;
-    }
+  .articulos {
+    flex-direction: column;
+  }
 
-    .article img {
-        margin: 20px 0px 20px 0px;
-        align-self: center;
-    }
+  .article {
+    flex-direction: column;
+  }
 
-    .contact {
-        flex-direction: column;
-    }
+  .article img {
+    margin: 20px 0px 20px 0px;
+    align-self: center;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .texto-principal {
-        height: 800px;
-        overflow: hidden;
-    }
+  .texto-principal {
+    height: 800px;
+    overflow: hidden;
+  }
 
-    .content {
-        padding-top: 180px;
-    }
+  .content {
+    padding-top: 180px;
+  }
 
-    .eventos br,
-    .desayunar br,
-    .contacto br {
-        display: none;
-    }
+  .eventos br,
+  .desayunar br,
+  .contacto br {
+    display: none;
+  }
 
-    .section {
-        width: 100%;
-    }
+  .section {
+    width: 100%;
+  }
 
-    .articulos {
-        width: 100%;
-    }
+  .articulos {
+    width: 100%;
+  }
 
-    .article {
-        width: 100%;
-    }
+  .article {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .texto-principal {
+    height: 800px;
+    overflow: hidden;
+  }
+
+  .content {
+    padding-top: 180px;
+  }
+
+  .eventos br,
+  .desayunar br,
+  .contacto br {
+    display: none;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  .articulos {
+    width: 100%;
+  }
+
+  .article {
+    width: 100%;
+  }
 }
